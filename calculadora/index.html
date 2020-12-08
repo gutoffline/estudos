@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <script src="js/funcoes.js"></script>
+</head>
+<body>
+    <div class="calc">
+        <form id="calculadora">
+            <input id="visor" class="tela" >
+        </form>
+        <div class="botoes">
+            <button type="button" class="botao" onclick="LimparVisor();">C</button>
+            <button type="button" class="botao" onclick="RaizQuadrada();">&radic;</button>
+            <button type="button" class="botao" onclick="ApagarAnterior();"> &larr; </button>
+            <button type="button" class="botao" onclick="InserirNoVisor(0);">0</button>
+                        
+            <button type="button" class="botao" onclick="InserirNoVisor(7);">7</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(8);">8</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(9);">9</button>
+            <button type="button" class="botao" onclick="InserirNoVisor('*');"> * </button>
+            
+            <button type="button" class="botao" onclick="InserirNoVisor(4);">4</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(5);">5</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(6);">6</button>
+            <button type="button" class="botao" onclick="InserirNoVisor('/');">/</button>
+
+            <button type="button" class="botao" onclick="InserirNoVisor(1);">1</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(2);">2</button>
+            <button type="button" class="botao" onclick="InserirNoVisor(3);">3</button>
+            <button type="button" class="botao" onclick="InserirNoVisor('-');">-</button>
+
+            <button type="button" class="botao" onclick="InserirNoVisor('.');">.</button>
+            <button type="button" class="botao" onclick="InserirNoVisor('+');">+</button>
+            <button type="button" class="botao" onclick="Calcular();">=</button>
+        </div>
+    </div>
+</body>
+</html>
