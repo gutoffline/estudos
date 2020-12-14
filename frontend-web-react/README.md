@@ -4,5 +4,7 @@
 3. No terminal executar o comando para criar o app react `npx create-react-app nome_da_aplicacao` <br>
 Ex: `npx create-react-app front_end_react`
 4. Caso dê erro, digite: `npm install -g create-react-app` e tente rodar o comando do passo 3 novamente
+5. Abra a pasta do projeto no Visual Studio Code
+6. Execute `npm start`
 
 

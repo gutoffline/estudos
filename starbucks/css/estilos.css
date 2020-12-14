@@ -92,3 +92,72 @@ header ul li a{
     border-radius: 40px;
     letter-spacing: 1px;
 }
+
+.caixa-imagem{
+    width: 600;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.caixa-imagem img{
+    max-width: 340px;
+}
+
+.miniaturas{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    display: flex;
+    transform: translateX(-50%);
+}
+
+.miniaturas li{
+    list-style: none;    
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.miniaturas li:hover{
+    transform: translateY(-15px);
+}
+
+.miniaturas li img{
+    max-width: 60px;
+}
+
+.redes-sociais{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    display: flex;
+    transform: translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redes-sociais li{
+    list-style: none;
+}
+
+.redes-sociais li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert();
+}
+
+
+.circulo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 800px);
+}
